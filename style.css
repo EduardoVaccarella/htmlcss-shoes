@@ -8,6 +8,10 @@ html {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .shoe-section {
     min-height: 100vh;
     position: relative;
@@ -33,10 +37,25 @@ html {
 }
 
 .nav {
-    position: relative;
-    top: 0;
-    right: 0;
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    z-index: 1;
+    
+}
+
+li {
     padding: 20px;
+    list-style-type: none;
+    margin: 0;
+    display: inline;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.container-lista {
+    background-color: red;
+    height: 70px;
 }
 
 #differente {
